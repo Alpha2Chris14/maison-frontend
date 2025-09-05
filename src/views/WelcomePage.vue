@@ -4,18 +4,26 @@
         <!-- <OffcanvasMenu /> -->
         <HeaderComponent />
         <HeroSectionComponent />
+        <CollectionsComponent />
+        <ProductView />
+        <DealComponent />
+        <SocialComponent />
+        <BlogComponent />
+        <FooterComponent />
 
     </div>
 </template>
 
 
 <script setup>
-// import Preloader from '../components/PreloaderComponent.vue'
-// import OffcanvasMenu from '../components/OffcanvasComponent.vue'
 import HeaderComponent from '../components/HeaderComponent.vue'
 import HeroSectionComponent from '../components/HerosectionComponent.vue'
-// import BannerSection from './components/BannerSection.vue'
-// import ProductSection from './components/ProductSection.vue'
+import CollectionsComponent from '../components/CollectionsComponent.vue';
+import ProductView from '@/components/ProductView.vue';
+import DealComponent from '@/components/DealComponent.vue';
+import SocialComponent from '@/components/SocialsComponent.vue';
+import BlogComponent from '@/components/BlogComponent.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 // import CategoriesSection from './components/CategoriesSection.vue'
 // import InstagramSection from './components/InstagramSection.vue'
 // import LatestBlogSection from './components/LatestBlogSection.vue'
