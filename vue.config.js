@@ -11,6 +11,7 @@ module.exports = defineConfig({
     config.plugins.delete("progress");
 
     // Add Webpack's built-in ProgressPlugin
+    // this trash isn't working properly in Vue CLI by default
     config.plugin("progress").use(webpack.ProgressPlugin);
   },
 });
