@@ -1,29 +1,40 @@
 <template>
     <!-- Testimonial Section Begin -->
-    <section class="testimonial">
-        <div class="container-fluid">
+    <section class="counter spad">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6 p-0">
-                    <div class="testimonial__text">
-                        <span class="icon_quotations"></span>
-                        <p>
-                            “Going out after work? Take your butane curling iron with you to
-                            the office, heat it up, style your hair before you leave the
-                            office and you won’t have to make a trip back home.”
-                        </p>
-                        <div class="testimonial__author">
-                            <div class="testimonial__author__pic">
-                                <img src="/img/about/testimonial-author.jpg" alt="" />
-                            </div>
-                            <div class="testimonial__author__text">
-                                <h5>Augusta Schultz</h5>
-                                <p>Fashion Design</p>
-                            </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="cn_num">102</h2>
                         </div>
+                        <span>Our <br />Clients</span>
                     </div>
                 </div>
-                <div class="col-lg-6 p-0">
-                    <div class="testimonial__pic set-bg" data-setbg="/img/about/testimonial-pic.jpg"></div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="cn_num">30</h2>
+                        </div>
+                        <span>Total <br />Categories</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="cn_num">102</h2>
+                        </div>
+                        <span>In <br />Country</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__number">
+                            <h2 class="cn_num">98</h2>
+                            <strong>%</strong>
+                        </div>
+                        <span>Happy <br />Customer</span>
+                    </div>
                 </div>
             </div>
         </div>
