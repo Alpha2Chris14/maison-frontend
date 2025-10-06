@@ -41,15 +41,15 @@
                             <li><router-link to="/shop">Shop</router-link></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><router-link to="/about">About Us</router-link></li>
+                                    <li><router-link to="/shop-details">Shop Details</router-link></li>
+                                    <li><router-link to="/shopping-cart">Shopping Cart</router-link></li>
+                                    <li><router-link to="/checkout">Check Out</router-link></li>
+                                    <li><router-link to="/blog-details">Blog Details</router-link></li>
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contacts</a></li>
+                            <li><router-link to="/blog">Blog</router-link></li>
+                            <li><router-link to="/contact">Contacts</router-link></li>
                         </ul>
                     </nav>
                 </div>
