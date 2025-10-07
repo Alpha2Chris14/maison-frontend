@@ -2,12 +2,12 @@
     <div>
         <!-- Header -->
         <HeaderComponent />
-
-        <!-- BreadCrumb -->
-        <BreadCrumbs title="About" :links="[{ name: 'Home', url: '/' }, { name: 'About' }]" />
+        <ContactSectionComponent />
+        <FooterComponent />
     </div>
 </template>
 <script setup>
 import HeaderComponent from '../components/HeaderComponent.vue';
-import BreadCrumbs from '../components/BreadCrumbs.vue';
+import ContactSectionComponent from '../components/ContactSectionComponent.vue';
+import FooterComponent from '../components/FooterComponent.vue';
 </script>

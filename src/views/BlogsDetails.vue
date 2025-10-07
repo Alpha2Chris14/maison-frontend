@@ -3,11 +3,14 @@
         <!-- Header -->
         <HeaderComponent />
 
-        <!-- BreadCrumb -->
-        <BreadCrumbs title="About" :links="[{ name: 'Home', url: '/' }, { name: 'About' }]" />
+        <BlogHeroComponent />
+        <BlogDetailsComponent />
+        <FooterComponent />
     </div>
 </template>
 <script setup>
 import HeaderComponent from '../components/HeaderComponent.vue';
-import BreadCrumbs from '../components/BreadCrumbs.vue';
+import BlogHeroComponent from '../components/BlogHeroComponent.vue';
+import BlogDetailsComponent from '../components/BlogDetailsComponent.vue';
+import FooterComponent from '../components/FooterComponent.vue';
 </script>

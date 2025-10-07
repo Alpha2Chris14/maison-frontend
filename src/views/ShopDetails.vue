@@ -2,12 +2,16 @@
     <div>
         <!-- Header -->
         <HeaderComponent />
+        <ShopDetails />
+        <RelatedProductComponent />
+        <FooterComponent />
 
-        <!-- BreadCrumb -->
-        <BreadCrumbs title="About" :links="[{ name: 'Home', url: '/' }, { name: 'About' }]" />
+
     </div>
 </template>
 <script setup>
+import FooterComponent from '../components/FooterComponent.vue';
 import HeaderComponent from '../components/HeaderComponent.vue';
-import BreadCrumbs from '../components/BreadCrumbs.vue';
+import RelatedProductComponent from '../components/RelatedProductComponent.vue';
+import ShopDetails from '../components/ShopDetails.vue';
 </script>
